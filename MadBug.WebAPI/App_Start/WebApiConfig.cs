@@ -12,14 +12,14 @@ using System.Web.Http.Cors;
 namespace MadBug.WebAPI
 {
 
-    [EnableCors("*", "*", "*")]
+    
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
         {
             // CORS
-            var cors = new EnableCorsAttribute("*", "*", "*");
-            config.EnableCors(cors);
+            //var cors = new EnableCorsAttribute("http://localhost:4200", "*", "*");
+            //config.EnableCors();
 
             // Configuración y servicios de Web API
             // Configure Web API para usar solo la autenticación de token de portador.

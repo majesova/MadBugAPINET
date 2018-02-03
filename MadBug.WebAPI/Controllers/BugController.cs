@@ -20,7 +20,6 @@ namespace MadBug.API.Controllers
     public class BugController : BaseApiController
     {
 
-
         /// <summary>
         /// This resource returns the registered bugs in te application
         /// /// </summary>

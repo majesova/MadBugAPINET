@@ -8,6 +8,7 @@ using System.Web.Http;
 using System.Security.Claims;
 using MadBug.WebAPI;
 using MadBug.WebAPI.Models;
+using System.Web.Http.Cors;
 
 namespace MadBug.API.Controllers
 {
